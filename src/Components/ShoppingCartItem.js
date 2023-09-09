@@ -25,7 +25,6 @@ class ShoppingCartItem extends React.Component {
 
   removeFromShoppingCart = async () => {
     const { id, updateItems } = this.props;
-    console.log('pum');
     this.setState((prevState) => {
       if (prevState.itemQuantity >= 1) {
         return { itemQuantity: prevState.itemQuantity - 1 };

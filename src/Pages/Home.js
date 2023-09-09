@@ -47,7 +47,6 @@ class Home extends React.Component {
             {searchResults.map((result) => {
               const { title, price, thumbnail, id, available_quantity: availableQuantity,
                 shipping: { free_shipping: shipping } } = result;
-              if (!availableQuantity) console.log(result);
               return (
                 <ProductCard
                   key={ id }

@@ -7,8 +7,7 @@ class Details extends React.Component {
     return (
       <div>
         <p data-testid="product-detail-name">{title}</p>
-        {/* <p> `R$ ${precoDoProduto}`</p>
-                <img src={urlDaImagemDoProduto} alt={imagemDoProduto} /> */}
+
       </div>
     );
   }
